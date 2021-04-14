@@ -1,0 +1,1638 @@
+
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<title>GTVT</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<!--	<link rel="stylesheet" href="css/bootstrap.min.css">-->
+	
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+<!--
+    <link rel="stylesheet" href="css/style.scss">
+	<link rel="stylesheet" href="css/responsive.scss">
+-->
+
+</head>
+
+<body>
+<header class="cd-auto-hide-header">
+		<div class="d-block d-lg-none">
+			<div class="d-flex position-relative align-items-center py-xl-2 px-3 bg-base">
+                <div class="show-menu-btn px-0 position-absolute">
+                    <img src="images/icon/menu.svg" alt="">
+                </div>
+                <div class="d-flex align-items-center justify-content-center w-100 py-2 py-xl-0" style="border-bottom: 2px solid black">
+                    <a href="" class="text-red font-weight-bolder font-playfair fs-32 text-nowrap">NGÔ XUÂN BÍNH
+                    </a>
+                </div>
+			</div>
+		</div>
+		
+<!-- menu-mobile -->
+<div class="menu-mobile d-block d-lg-none">
+	<div class="d-flex align-items-center justify-content-between pt-2 bg-base">
+		<div class="position-absolute">
+			<label for="chk" class="hide-menu-btn fs-24 mb-0 pl-3">
+		        <i class="fas fa-times" style="font-size: 20px;"></i>
+		    </label>
+		</div>
+		<div class="d-flex align-items-center mx-auto px-0">
+                <a href="" class="text-red font-weight-bolder font-playfair fs-32 text-nowrap">NGÔ XUÂN BÍNH
+							</a>
+        </div>
+	</div>
+    <!-- search menu mobile -->
+    <form class="" style="z-index: 3" action="/?mod=archive&amp;act=search" method="GET">
+        <div class="input-group dropdown-item bg-base pb-3 px-3">
+            <input type="hidden" name="mod" value="archive">
+            <input type="hidden" name="act" value="search">
+            <input type="text" name="search" class="form-control shadow-none" placeholder="Tìm kiếm..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="submit"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </form>
+    <!-- end search menu mobile -->
+    <!-- menu mobile -->
+	<nav class="navigation bg-base">
+    	<ul class="nav-list">
+    		<li class="dropdown-list">
+    			<div class="d-flex justify-content-between align-items-center">
+    				<a href="#" class="dropdown-list__
+									   title">Trag chu</a>
+    				<span><i class="fas fa-angle-down" style="font-size: 25px"></i></span>
+    			</div>
+    			<ul class="dropdown-list__menu">
+				    <li class="openlistnewsmn_mb">
+                        <a href="#">Gioi thieu</a>
+                    </li>
+    			</ul>
+    		</li>
+    		<li>xfd</li>
+    	</ul>
+    </nav>
+    <!-- end menu-mobile -->
+</div>
+<!-- menu-mobile -->
+  <div class="w-100 d-none d-lg-block position-relative bg-base" >
+    <div class="w-1791 mx-auto row py-4 align-items-center position-relative header-pc">
+      <div class="d-flex align-items-center px-0 position-absolute">
+        <div class="d-flex align-items-center pl-sm-3 pr-0 col-5 "><a href=""><img src="images/icon/prev-black.svg" alt=""></a></div>
+		  <div class="d-flex flex-wrap ml-sm-n1"><a href="" class="fs-16 text-nowrap font-playfair text-dark333">BinhHeritage.vn</a>
+		  </div>
+      </div>
+        <div class="mx-auto ">
+			<ul class="d-flex nav_desktop bg-transparent justify-content-between w-100">
+				<li class="nav_item ">
+					<a href=""><img src="images/icon/Home.svg" alt=""></a>
+				</li>
+			  <li class="nav_item active"> <a href="" class="">Medi</a>
+				<ul class="dropdown-menu fade-up">
+				  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+				  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+				  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+				</ul>
+			  </li>
+			  <li class="nav_item "><a href="" class="">Võ thuật</a></li>
+			  <li class="nav_item "><a href="" class="">Y học</a></li>
+			  <li class="author-name px-4"><a href="" class="">NGÔ XUÂN BÍNH</a></li>
+			  <li class="nav_item "><a href="" class="">Điêu khắc</a></li>
+			  <li class="nav_item "><a href="" class="">Hội họa</a></li>
+			  <li class="nav_item "><a href="" class="">Thơ ca</a></li>
+			</ul>
+		</div>
+      </div>
+	  <div class="position-absolute w-100 bg-base accordion" id="accordionExample">
+	  	<div class="collapse" id="collapseExample" data-parent="#accordionExample">
+		  <div class="w-1791 mx-auto py-5">
+			  <button class="btn btn-none float-right fs-10 d-flex align-items-center focus-none" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+				Đóng <i class="fas fa-times fs-18 pl-2"></i>
+			  </button>
+			<div class="input-group col-sm-7 mx-auto border-bottom px-0 my-5">
+			  <input type="text" class="form-control focus-none border-0 h4-font" placeholder="Tìm bài viết" aria-label="Recipient's username" aria-describedby="button-addon2">
+			  <div class="input-group-append">
+				<button class="btn border-0" type="button"><i class="fas fa-search fs-20 text-secondary"></i></button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		 <div class="collapse" id="collapseExample2" data-parent="#accordionExample">
+		  <div class="w-1791 mx-auto py-5">
+			  <button class="btn btn-none float-right fs-10 d-flex align-items-center focus-none" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+				Đóng <i class="fas fa-times fs-18 pl-2"></i>
+			  </button>
+			  <div class="w-100 float-left pb-5">
+			  	<div class="row">
+				  <div class="col-sm-3 pb-3">
+					  <div class="header-section-cate d-flex pt-0">
+						<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+					</div>
+					  <ul class="header-cate-menu">
+						<li class="header-cate-menu-item">
+							<a href="" class="sub-title-16">
+								Bài viết mới nhất
+							</a>
+						  </li>
+						  <li class="header-cate-menu-item">
+							  <a href="" class="sub-title-16">
+								Bài viết mới nhất
+							</a>
+						  </li>
+					  </ul>
+				  </div>
+					<div class="col-sm-3 pb-3">
+						<div class="header-section-cate d-flex pt-0">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+						<ul class="header-cate-menu">
+						  <li class="header-cate-menu-item">
+							  <a href="" class="sub-title-16">
+								  Bài viết mới nhất
+							  </a>
+							</li>
+							<li class="header-cate-menu-item">
+								<a href="" class="sub-title-16">
+								  Bài viết mới nhất
+							  </a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 pb-3">
+						<div class="header-section-cate d-flex pt-0">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+						<ul class="header-cate-menu">
+						  <li class="header-cate-menu-item">
+							  <a href="" class="sub-title-16">
+								  Bài viết mới nhất
+							  </a>
+							</li>
+							<li class="header-cate-menu-item">
+								<a href="" class="sub-title-16">
+								  Thế giới tâm linh
+							  </a>
+							</li>
+							<li class="header-cate-menu-item">
+								<a href="" class="sub-title-16">
+								  video
+							  </a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 pb-3">
+						<div class="header-section-cate d-flex pb-2">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+						<div class="header-section-cate d-flex pb-2">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+						<div class="header-section-cate d-flex pb-2">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+						<div class="header-section-cate d-flex pb-2">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+					</div>
+					<div class="col-sm-3 pb-3">
+						<div class="header-section-cate d-flex pt-0">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+						<ul class="header-cate-menu">
+						  <li class="header-cate-menu-item">
+							  <a href="" class="sub-title-16">
+								  Bài viết mới nhất
+							  </a>
+							</li>
+							<li class="header-cate-menu-item">
+								<a href="" class="sub-title-16">
+								  Thế giới tâm linh
+							  </a>
+							</li>
+							<li class="header-cate-menu-item">
+								<a href="" class="sub-title-16">
+								  video
+							  </a>
+							</li>
+							<li class="header-cate-menu-item">
+								<a href="" class="sub-title-16">
+								  Giảng Pháp thường kỳ
+							  </a>
+							</li>
+							<li class="header-cate-menu-item">
+								<a href="" class="sub-title-16">
+								  video
+							  </a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-3 pb-3">
+						<div class="header-section-cate d-flex pb-2">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Hạnh đầu đà</a>
+						</div>
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3">
+							<p class="sub-title-14">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+						</div>
+					</div>
+					<div class="col-sm-3 pb-3">
+						<div class="header-section-cate d-flex pb-2">
+							<a href="" class="px-2 sub-title-18 font-weight-bold">Video mới nhất</a>
+						</div>
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3">
+							<p class="sub-title-14">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+						</div>
+					</div>
+				</div>
+			  </div>
+			
+		  </div>
+		</div>
+	  </div>
+    </div> 
+</header>
+	<div class="bg-white">
+		<div class="w-1080 mx-auto py-4">
+			<div class="top-index d-flex justify-content-between flex-wrap">
+				<div class="top-news">
+					<div class="top-1">
+						<div class="">
+							<p class="thumb-img"> 
+							  <a href="" class="thumb-item thumb-5x3"> 
+								  <img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+							  </a> 
+							</p>
+						</div>
+						<div class="pt-12">
+							<a href="" class="h-24">Bamboo Airways được cấp slot bay đến London</a>
+							<a href="" class="fs-13 text-dark666 font-arial d-block py-12">Nguyễn Tấn Tài</a>
+							<p class="fs-16 text-dark444">Theo Airlinegeeks, Bamboo Airways vừa được Hội đồng sân bay Vương quốc Anh cấp slot bay tại sân bay Heathrow từ tháng 5.</p>
+						</div>
+					</div>
+					<div class="top-2">
+						<div class="">
+							<p class="thumb-img"> 
+							  <a href="" class="thumb-item thumb-5x3"> 
+								  <img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+							  </a> 
+							</p>
+						</div>
+						<div class="pt-12">
+							<a href="" class="h-16">Đằng sau đà tăng phi mã của cổ phiếu FLC</a>
+							<a href="" class="fs-13 text-dark666 font-arial d-block py-12">Nguyễn Tấn Tài</a>
+							<p class="title-16 text-dark444">Cổ phiếu FLC tăng giá gần 40% sau một tuần trước kế hoạch phát hành cổ phần để tăng vốn gần 5.000 tỷ. Những năm trước, việc chào bán cổ phiếu của FLC đều không thành công.</p>
+						</div>
+					</div>
+					<div class="top-3">
+						<div class="">
+							<p class="thumb-img"> 
+							  <a href="" class="thumb-item thumb-5x3"> 
+								  <img src="images/Rectangle 179.png" class="" alt="..."> 
+							  </a> 
+							</p>
+						</div>
+						<div class="pt-12">
+							<a href="" class="h-16">Đằng sau đà tăng phi mã của cổ phiếu FLC</a>
+							<a href="" class="fs-13 text-dark666 font-arial d-block py-12">Nguyễn Tấn Tài</a>
+						</div>
+					</div>
+					<div class="top-4">
+						<div class="">
+							<p class="thumb-img"> 
+							  <a href="" class="thumb-item thumb-5x3"> 
+								  <img src="images/Rectangle 179.png" class="" alt="..."> 
+							  </a> 
+							</p>
+						</div>
+						<div class="pt-12">
+							<a href="" class="h-16">Đằng sau đà tăng phi mã của cổ phiếu FLC</a>
+							<a href="" class="fs-13 text-dark666 font-arial d-block py-12">Nguyễn Tấn Tài</a>
+						</div>
+					</div>
+					<div class="top-5">
+						<div class="">
+							<p class="thumb-img"> 
+							  <a href="" class="thumb-item thumb-5x3"> 
+								  <img src="images/Rectangle 179.png" class="" alt="..."> 
+							  </a> 
+							</p>
+						</div>
+						<div class="pt-12">
+							<a href="" class="h-16">Đằng sau đà tăng phi mã của cổ phiếu FLC</a>
+							<a href="" class="fs-13 text-dark666 font-arial d-block py-12">Nguyễn Tấn Tài</a>
+						</div>
+					</div>
+				</div>
+				<div class="top-sidebar">
+					<button class="border-0 mb-3">
+						<img src="images/icon/button.svg" alt="">
+					</button>
+					<img src="images/image 3.png" alt="">
+				</div>
+				<div class="w-100" style="background-color: #F0EFF4; height: 5px"></div>
+			</div>
+		</div>
+	</div>
+	<div class="media">
+		<div class="w-1080 mx-auto">
+			<div class="cate-list">
+				<a href="" class="fs-22 font-roboto font-weight-bold cate-list-item">MEDIA</a>
+				<a href="" class="h-18 mx-4 cate-list-item">Video</a>
+			</div>
+			<div class="media-main">
+				<p class="thumb-img"> 
+                    <a href="" class="thumb-item thumb-5x3"> 
+                        <img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+                    </a> 
+                </p>
+			</div>
+			<div class="media-sidebar">
+				
+			</div>
+		</div>
+	</div>
+	
+<!--<article class="bg-base pt-md-0 px-md-0 container-fluid position-relative"> -->
+  
+  <!--		<a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>-->
+
+  <div class="bg-base d-flex align-items-center position-relative overflow-hidden intro-section">
+	  
+    <div class="w-1791 bg-base p-xl-4 intro-section-detail">
+      <div class="row row-cols-sm-2 row-cols-1 px-3 p-sm-2 flex-row flex-row-reverse flex-xl-row">
+		  <p class="author text-center col-11 pb-4 mx-auto d-block d-sm-none">NGÔ XUÂN BÍNH</p>
+		  <div class="col-12 px-0 d-block d-sm-none">
+				<p class="thumb-img"> 
+                  <a href="" class="thumb-item thumb-5x3"> 
+                      <img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+                  </a> 
+              </p>
+		  </div>
+		  <div class="col-11 col-sm-11 col-xl-4 pl-xl-4 text-center text-xl-left mx-auto mt-4 mb-4 my-sm-0 bg-base">
+			  <p class="author d-none d-xl-block ">NGÔ XUÂN BÍNH</p>
+				  
+		  	<p class=" pt-3 text-uppercase fs-56 font-lato">ngô xuân bính</p>
+			  <div class="col-12 px-0 d-none d-sm-block d-xl-none">
+					<p class="thumb-img"> 
+					  <a href="" class="thumb-item thumb-5x3"> 
+						  <img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+					  </a> 
+				  </p>
+			  </div>
+			  <p class="title-16 pt-4">Ngô Xuân Bính là giáo sư, viện sĩ người Việt tại Nga. Ông nổi danh trong rất nhiều lĩnh vực như là võ sư sáng lập môn phái võ Nhất Nam, một môn võ dân tộc phát triển mạnh ở châu Âu . Ông còn là một thầy thuốc giỏi trong việc sử dụng y học dân tộc để chữa bệnh.</p>
+			  <button class=" sub-title-16 seemore-button position-relative text-gold bg-red mb-4 mb-xl-0 mt-4">
+				  <span class="position-relative">Xem thêm <img src="images/icon/next.svg" class="move-right icon-right" alt=""></span>
+			  </button> 
+		  </div>
+		  <div class="col-sm-8 d-none d-xl-block">
+				<p class="thumb-img"> 
+                  <a href="" class="thumb-item thumb-5x3"> 
+                      <img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+                  </a> 
+              	</p>
+		  </div>
+      </div>
+    </div>
+  </div>
+	<div class="bg-base container-fluid">
+		<p class="section-title">Media</p>
+		<div class="w-1791 mx-auto d-xl-block d-none">
+			<div class="media">
+				<div class="media-article">
+					<div class="">
+                      <img src="images/Rectangle 158.png" alt="">
+                    </div>
+				</div>
+				<div class="media-sidebar d-flex flex-column justify-content-between">
+					<div class="media-sidebar-content">
+                        <a class="title-16 text-orange pb-3" href="">Video</a>
+                        <p class="title-40">Ngô Xuân Bính: “Kỳ nhân” xứ Nghệ ở nước Nga</p>
+                        <div class="d-flex py-3 mb-3">
+                            <span class="play-button d-flex"><span class="play-icon">&#9655;</span><span class="play-time">2:30</span> </span>
+                        </div>
+                        <p class="title-16">Ngô Xuân Bính được biết đến với những công trình đồ sộ về y học và võ thuật. Nhiều người gọi ông là “kỳ nhân" bởi tinh thông hội họa, thơ ca, y học, võ thuật và âm nhạc. Thế nhưng, gặp ông chỉ thấy một người xứ Nghệ giản dị và khiêm nhường.</p>
+                    </div>
+					<div class="media-sidebar-video align-items-end w-100">
+						<div class="sidebar-video-item">
+							<div class="">
+								<p class="thumb-img"> 
+									<a href="" class="thumb-item thumb-5x3"> 
+										<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+										<span class="play-button d-flex align-items-center"><span class="play-icon">&#9655;</span><span class="play-time">2:30</span> </span>
+									</a> 
+								</p>
+							</div>
+							<div class="">
+								<p class="title-16 pt-3">Ngô Xuân Bính: “Kỳ nhân” xứ Nghệ ở nước Nga</p>
+							</div>
+						</div>
+						<div class="sidebar-video-item">
+							<div class="">
+								<p class="thumb-img"> 
+									<a href="" class="thumb-item thumb-5x3"> 
+										<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+									</a> 
+								</p>
+							</div>
+							<div class="">
+								<p class="title-16 pt-3">Ngô Xuân Bính: “Kỳ nhân” xứ Nghệ ở nước Nga</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="w-1791 mx-n3 d-block d-xl-none">
+			<div class="media-slide py-3 ml-n3">
+			  	<div class="media-slide-item m-2">
+					<div class="">
+						<p class="thumb-img"> 
+							<a href="" class="thumb-item thumb-5x3"> 
+								<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+							</a> 
+						</p>
+					</div>
+                    <div class="p-3 media-slide-item-content">
+						<a href="" class="title-18 text-white">Ngô Xuân Bính: “Kỳ nhân” xứ Nghệ ở nước Nga</a>
+						<p class="py-3 fs-14"> Ngô Xuân Bính được biết đến với những công trình đồ sộ về y học và võ thuật. Nhiều người gọi ông là “kỳ nhân" bởi tinh thông hội họa, thơ ca.</p>
+						<a href="" class="text-orange">Video</a>
+					</div>
+				</div>
+			  	<div class="media-slide-item m-2">
+					<div class="">
+						<p class="thumb-img"> 
+							<a href="" class="thumb-item thumb-5x3"> 
+								<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+							</a> 
+						</p>
+					</div>
+                    <div class="p-3 media-slide-item-content">
+						<a href="" class="title-18 text-white">Ngô Xuân Bính: “Kỳ nhân” xứ Nghệ ở nước Nga</a>
+						<p class="py-3 fs-14"> Ngô Xuân Bính được biết đến với những công trình đồ sộ về y học và võ thuật. Nhiều người gọi ông là “kỳ nhân" bởi tinh thông hội họa, thơ ca.</p>
+						<a href="" class="text-orange">Video</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bg-base container-fluid">
+		<p class="section-title">Người & Nghiệp</p>
+		<div class="w-1791 mx-auto p-xl-5 custom-carousel ">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <div class="row news-section">
+				<div class="col-xl-6">
+					<div class="h-100 bg-white main-news">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="h-100">
+							<div class="pt-sm-4 px-sm-4">
+								<a href="" class="title-40 fix-text main-news-title">Bốn họa sỹ, nghệ nhân tài danh với triển lãm Nghệ thuật đương đại “NIỆM”</a>
+								<p class="py-3 title-16 d-none d-xl-block">
+									<span class="fix-text3">
+										Ở triển lãm Nghệ thuật đương đại “NIỆM” của họa sĩ Ngô Xuân Bính, Lê Văn Thìn, Đặng Tin Tưởng và nghệ nhân Đào Trọng Cường tại Bảo tàng Hà Nội vào ngày 30 tháng 5 tới đây, nghệ thuật sáng tạo đã được đẩy lên cao trào, nét chung ở các tác phẩm là sự hướng thiện thể hiện trong những nét vẽ miên man.
+									</span>
+								</p>
+								<a href="" class="pt-3 text-brown d-none d-xl-block">Xem thêm</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-xl-6 news-section-mini">
+					<div class="row ">
+						<div class="col-sm-6 news-section-mini-item">
+							<div class="row">
+								<div class="col-5 col-sm-12 img-section">
+									<p class="thumb-img"> 
+										<a href="" class="thumb-item thumb-5x3"> 
+											<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+										</a> 
+									</p>
+								</div>
+								<div class="pl-0 pl-sm-3 col-7 col-sm-12 content-section">
+									<div class="bg-white pl-0 p-sm-3 p-xl-4 content-section-detail">
+										<a href="" class="title-20 fix-text">Bốn họa sỹ, nghệ nhân tài danh với triển lãm Nghệ thuật đương đại “NIỆM”</a>
+										<a href="" class="pt-3 text-brown d-none d-sm-block">Xem thêm</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 news-section-mini-item">
+							<div class="row">
+								<div class="col-5 col-sm-12 img-section">
+									<p class="thumb-img"> 
+										<a href="" class="thumb-item thumb-5x3"> 
+											<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+										</a> 
+									</p>
+								</div>
+								<div class="pl-0 pl-sm-3 col-7 col-sm-12 content-section">
+									<div class="bg-white pl-0 p-sm-3 p-xl-4 content-section-detail">
+										<a href="" class="title-20 fix-text">Bốn họa sỹ, nghệ nhân tài danh với triển lãm Nghệ thuật đương đại “NIỆM”</a>
+										<a href="" class="pt-3 text-brown d-none d-sm-block">Xem thêm</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 news-section-mini-item">
+							<div class="row">
+								<div class="col-5 col-sm-12 img-section">
+									<p class="thumb-img"> 
+										<a href="" class="thumb-item thumb-5x3"> 
+											<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+										</a> 
+									</p>
+								</div>
+								<div class="pl-0 pl-sm-3 col-7 col-sm-12 content-section">
+									<div class="bg-white pl-0 p-sm-3 p-xl-4 content-section-detail">
+										<a href="" class="title-20 fix-text">Bốn họa sỹ, nghệ nhân tài danh với triển lãm Nghệ thuật đương đại “NIỆM”</a>
+										<a href="" class="pt-3 text-brown d-none d-sm-block">Xem thêm</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 news-section-mini-item">
+							<div class="row">
+								<div class="col-5 col-sm-12 img-section">
+									<p class="thumb-img"> 
+										<a href="" class="thumb-item thumb-5x3"> 
+											<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+										</a> 
+									</p>
+								</div>
+								<div class="pl-0 pl-sm-3 col-7 col-sm-12 content-section">
+									<div class="bg-white pl-0 p-sm-3 p-xl-4 content-section-detail">
+										<a href="" class="title-20 fix-text">Bốn họa sỹ, nghệ nhân tài danh với triển lãm Nghệ thuật đương đại “NIỆM”</a>
+										<a href="" class="pt-3 text-brown d-none d-sm-block">Xem thêm</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				</div>
+
+			  </div>
+				<div class="carousel-control-section d-none d-xl-flex justify-content-center align-items-center pt-5">
+					<div class="count-slide">
+						<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					  </ol>
+					</div>
+					<div class="">
+						<button class="d-none d-xl-block sub-title-16 seemore-button position-relative">
+						  <span class="position-relative">Xem thêm <img src="images/icon/next-brown.svg" class="move-right icon-right" alt=""></span>
+					  </button> 
+					</div>
+					<div class="d-flex button-slide">
+						<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleIndicators " role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  
+	<div class="bg-base container-fluid">
+		<p class="section-title">Võ thuật</p>
+		<div class="w-1791 mx-auto p-xl-5 custom-carousel carousel-type2">
+			<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <div class="news-section">
+				<div class="news-section-mini">
+					<div class="row ">
+						<div class="col-sm-6 col-xl-3 news-section-mini-item">
+							<div class="row">
+								<div class="col-sm-12 img-section">
+									<p class="thumb-img "> 
+										<a href="" class="thumb-item thumb-5x3"> 
+											<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+										</a> 
+									</p>
+								</div>
+								<div class=" col-sm-12 content-section">
+									<div class="bg-white pl-0 p-sm-3 p-xl-4 content-section-detail">
+										<a href="" class="title-20 fix-text">Bốn họa sỹ, nghệ nhân tài danh với triển lãm Nghệ thuật đương đại “NIỆM”</a>
+										<a href="" class="pt-3 text-brown d-none d-sm-block">Xem thêm</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xl-3 news-section-mini-item">
+							<div class="row">
+								<div class="col-5 col-sm-12 img-section">
+									<p class="thumb-img"> 
+										<a href="" class="thumb-item thumb-5x3"> 
+											<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+										</a> 
+									</p>
+								</div>
+								<div class="pl-0 pl-sm-3 col-7 col-sm-12 content-section">
+									<div class="bg-white pl-0 p-sm-3 p-xl-4 content-section-detail">
+										<a href="" class="title-20 fix-text">Bốn họa sỹ, nghệ nhân tài danh với triển lãm Nghệ thuật đương đại “NIỆM”</a>
+										<a href="" class="pt-3 text-brown d-none d-sm-block">Xem thêm</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xl-3 news-section-mini-item">
+							<div class="row">
+								<div class="col-5 col-sm-12 img-section">
+									<p class="thumb-img"> 
+										<a href="" class="thumb-item thumb-5x3"> 
+											<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+										</a> 
+									</p>
+								</div>
+								<div class="pl-0 pl-sm-3 col-7 col-sm-12 content-section">
+									<div class="bg-white pl-0 p-sm-3 p-xl-4 content-section-detail">
+										<a href="" class="title-20 fix-text">Bốn họa sỹ, nghệ nhân tài danh với triển lãm Nghệ thuật đương đại “NIỆM”</a>
+										<a href="" class="pt-3 text-brown d-none d-sm-block">Xem thêm</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xl-3 news-section-mini-item">
+							<div class="row">
+								<div class="col-5 col-sm-12 img-section">
+									<p class="thumb-img"> 
+										<a href="" class="thumb-item thumb-5x3"> 
+											<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+										</a> 
+									</p>
+								</div>
+								<div class="pl-0 pl-sm-3 col-7 col-sm-12 content-section">
+									<div class="bg-white pl-0 p-sm-3 p-xl-4 content-section-detail">
+										<a href="" class="title-20 fix-text">Bốn họa sỹ, nghệ nhân tài danh với triển lãm Nghệ thuật đương đại “NIỆM”</a>
+										<a href="" class="pt-3 text-brown d-none d-sm-block">Xem thêm</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				</div>
+			  </div>
+				<div class="carousel-control-section d-none d-xl-flex justify-content-center align-items-center pt-5">
+					<div class="count-slide">
+						<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+					  </ol>
+					</div>
+					<div class="">
+						<button class="d-none d-xl-block sub-title-16 seemore-button position-relative">
+						  <span class="position-relative">Xem thêm <img src="images/icon/next-brown.svg" class="move-right icon-right" alt=""></span>
+					  </button> 
+					</div>
+					<div class="d-flex button-slide">
+						<a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleIndicators2 " role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="bg-base container-fluid">
+		<p class="section-title">Y học</p>
+		<div class="w-1791 mx-auto p-xl-5 custom-carousel carousel-type2">
+			<div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <div class="news-section">
+				<div class="news-section-mini">
+					<div class="row ">
+						<div class="col-sm-4 news-section-mini-item">
+							<div class="row">
+								<div class="col-sm-12 img-section">
+									<p class="thumb-img "> 
+										<a href="" class="thumb-item thumb-5x3"> 
+											<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+										</a> 
+									</p>
+								</div>
+								<div class=" col-sm-12 content-section">
+									<div class="bg-white pl-0 p-sm-3 p-xl-4 content-section-detail">
+										<a href="" class="title-20 fix-text">Bốn họa sỹ, nghệ nhân tài danh với triển lãm Nghệ thuật đương đại “NIỆM”</a>
+										<a href="" class="pt-3 text-brown d-none d-sm-block">Xem thêm</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 news-section-mini-item">
+							<div class="row">
+								<div class="col-5 col-sm-12 img-section">
+									<p class="thumb-img"> 
+										<a href="" class="thumb-item thumb-5x3"> 
+											<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+										</a> 
+									</p>
+								</div>
+								<div class="pl-0 pl-sm-3 col-7 col-sm-12 content-section">
+									<div class="bg-white pl-0 p-sm-3 p-xl-4 content-section-detail">
+										<a href="" class="title-20 fix-text">Bốn họa sỹ, nghệ nhân tài danh với triển lãm Nghệ thuật đương đại “NIỆM”</a>
+										<a href="" class="pt-3 text-brown d-none d-sm-block">Xem thêm</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 news-section-mini-item">
+							<div class="row">
+								<div class="col-5 col-sm-12 img-section">
+									<p class="thumb-img"> 
+										<a href="" class="thumb-item thumb-5x3"> 
+											<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+										</a> 
+									</p>
+								</div>
+								<div class="pl-0 pl-sm-3 col-7 col-sm-12 content-section">
+									<div class="bg-white pl-0 p-sm-3 p-xl-4 content-section-detail">
+										<a href="" class="title-20 fix-text">Bốn họa sỹ, nghệ nhân tài danh với triển lãm Nghệ thuật đương đại “NIỆM”</a>
+										<a href="" class="pt-3 text-brown d-none d-sm-block">Xem thêm</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				</div>
+			  </div>
+				<div class="carousel-control-section d-none d-xl-flex justify-content-center align-items-center pt-5">
+					<div class="count-slide">
+						<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+					  </ol>
+					</div>
+					<div class="">
+						<button class="d-none d-xl-block sub-title-16 seemore-button position-relative">
+						  <span class="position-relative">Xem thêm <img src="images/icon/next-brown.svg" class="move-right icon-right" alt=""></span>
+					  </button> 
+					</div>
+					<div class="d-flex button-slide">
+						<a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleIndicators3 " role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  
+	
+	
+	<div class="bg-base container-fluid">
+		<div class="w-1791 mx-auto pb-5 pt-2">
+			<div class="section-cate d-flex ">
+				<span class="section-cate-name">Bộ kinh</span>
+				<a href="" class="section-cate-item">Bộ kinh</a>
+				<a href="" class="section-cate-item">Bộ kinh</a>
+				<a href="" class="section-cate-item">Bộ kinh</a>
+			</div>
+			<div class="row mx-xl-n4 px-xl-1 mini-news">
+				<div class="col-sm-6 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì lợi ích chúng sinh</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_15.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì </p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mx-xl-n4 px-xl-1 mini-news">
+				<div class="col-sm-3 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_17.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_14.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_14.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+  <div class="brown-section container-fluid position-relative overflow-hidden">
+	  <div class="position-absolute d-none d-xl-block lead-top">
+        <img src="images/icon/XMLID.svg" alt="">
+    </div>
+    <div class="w-1791 mx-auto px-0 px-md-3 px-0 px-xl-0" >
+      <div class="" >
+        <div class="d-flex flex-wrap align-items-center px-3 px-md-0 justify-content-between">
+			<div class="d-flex justify-content-between align-items-center w-100">
+              <p class="section-title">Phật pháp ứng dụng</p>
+              <a href="" class="d-none d-xl-block text-gold sub-title-16 seemore-button position-relative pr-xl-4">Xem thêm <i class="fas fa-arrow-right object move-right pl-2 icon-right"></i></a> 
+			</div>
+          <div class="d-flex flex-wrap">
+            <div class="d-none d-md-flex align-items-center flex-wrap cate-list"> <a href="" class="cate-list_item text-white h4-font">Phật pháp ứng dụng</a> <a href="" class="cate-list_item text-white h4-font">Phật pháp với tuổi trẻ</a> <a href="" class="cate-list_item text-white h4-font">Phật pháp theo chủ đề</a> <a href="" class="cate-list_item text-white h4-font">Kinh pháp cú</a> </div>
+          </div>
+          <div class="d-flex align-items-center flex-wrap px-3 px-md-0 w-100 d-sm-none"> 
+            <div class="w-100 expand-menu d-block d-sm-none">
+              <div class="btn-group dropright w-100">
+                <div class="d-flex position-relative align-items-center justify-content-between py-3 mx-n3" style="overflow-x: scroll"> 
+					<a href="" class="h4-font text-white pl-sm-3 pr-sm-0 pr-3 expand-menu-cate-name">Phật pháp ứng dụng</a> 
+					<a href="" class="h4-font text-white pl-sm-3 pr-sm-0 pr-3 expand-menu-cate-name">Phật pháp với tuổi trẻ</a> 
+					<a href="" class="h4-font text-white pl-sm-3 pr-sm-0 pr-3 expand-menu-cate-name">Phật pháp theo chủ đề</a> 
+					<a href="" class="h4-font text-white pl-sm-3 pr-sm-0 pr-3 expand-menu-cate-name">Kinh pháp cú</a> 
+				  </div>
+                <button type="button" class="btn dropdown-toggle-split mr-n3 px-4 border-0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-arrow-right text-white"></i> </button>
+                <div class="dropdown-menu bg-base">
+                  <div class="d-flex flex-wrap"> <a href="" class="h4-font text-lightgray pl-3 text-nowrap " style=" display: inline-table">Tu Chuyên Nghiệp</a> <a href="" class="h4-font text-lightgray pl-3 pb-2">Cầu Siêu</a> <a href="" class="h4-font text-lightgray pl-3 pb-2">Cúng - Giỗ - Rằm - Mùng 1</a> <a href="" class="h4-font text-lightgray pl-3 pb-2">Động Thổ</a> <a href="" class="h4-font text-lightgray pl-3 pb-2">Bốc Mộ</a> <a href="" class="h4-font text-lightgray pl-3 pb-2">Giao Thừa</a> </div>
+                  <!-- Dropdown menu links --> 
+                </div>
+              </div>
+            </div>
+          </div> 
+		  </div>
+		  <div class="row mx-xl-n4 px-xl-1 mini-news px-3 px-sm-0">
+				<div class="col-sm-4 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font text-white">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_17.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font text-white">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_14.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font text-white">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			  <div class="col-sm-4 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_14.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font text-white">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			  <div class="col-sm-4 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_13.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font text-white">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			  <div class="col-sm-4 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_12.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font text-white">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+      </div>
+    </div>
+  </div>
+	<div class="bg-lightgray container-fluid">
+		<div class="w-1791 mx-auto pt-5 py-sm-5 border-bottom">
+			<div class="d-flex justify-content-between align-items-center">
+              <p class="section-title">Tâm linh và nghi lễ phật giáo</p>
+              <a href="" class="d-none d-xl-block text-gold sub-title-16 seemore-button position-relative pr-xl-4">Xem thêm <i class="fas fa-arrow-right object move-right pl-2 icon-right"></i></a> 
+			</div>
+			<div class="section-cate section-cate-p-0 d-flex">
+				<span class="section-cate-name" >Nghi lễ Phật giáo</span>
+				<a href="" class="section-cate-item text-nowrap">Nghi lễ Phật giáo</a>
+				<a href="" class="section-cate-item text-nowrap">Bộ kinh</a>
+				<a href="" class="section-cate-item text-nowrap">Bộ kinh</a>
+				<a href="" class="section-cate-item text-nowrap">Bộ kinh</a>
+				<a href="" class="section-cate-item text-nowrap">Bộ kinh</a>
+			</div>
+			<div class="row mx-xl-n4 px-xl-1 mini-news">
+				<div class="col-sm-3 px-xl-4 mini-news-item ">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_17.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_14.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_14.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="bg-lightgray container-fluid">
+		<div class="w-1791 mx-auto pb-5 pt-2">
+			<div class="section-cate section-cate-p-0 d-flex ">
+				<a href="" class="section-cate-item">Bộ kinh</a>
+				<a href="" class="section-cate-item">Bộ kinh</a>
+				<a href="" class="section-cate-item">Bộ kinh</a>
+			</div>
+			<div class="row mx-xl-n4 px-xl-1 mini-news">
+				<div class="col-sm-3 px-xl-4 mini-news-item ">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_17.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_14.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 px-xl-4 mini-news-item">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_14.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="">
+							<p class="sub-title-14 date-news">31 T10</p>
+							<p class="h5-font">Chư Tăng Chùa Ba Vàng tu tập trong rừng vì</p>
+							<div class="d-flex">
+								<span class="count-cmt">24</span>
+								<span class="count-view">24</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+  <div class="container-fluid bg-base">
+		<div class="w-1791 mx-auto py-5">
+			<p class="section-title ">Xem thêm chủ đề</p>
+			<div class="row mx-xl-n4 px-xl-1 mini-news">
+				<div class="col-6 col-sm-3 col-xl-2 px-xl-4 mini-news-item ">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3 pt-sm-4">
+							<p class="h5-font">Hiếu đạo</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-3 col-xl-2 px-xl-4 mini-news-item ">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3 pt-sm-4">
+							<p class="h5-font">Hiếu đạo</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-3 col-xl-2 px-xl-4 mini-news-item ">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3 pt-sm-4">
+							<p class="h5-font">Hiếu đạo</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-3 col-xl-2 px-xl-4 mini-news-item ">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3 pt-sm-4">
+							<p class="h5-font">Hiếu đạo</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-3 col-xl-2 px-xl-4 mini-news-item ">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3 pt-sm-4">
+							<p class="h5-font">Hiếu đạo</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-3 col-xl-2 px-xl-4 mini-news-item ">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3 pt-sm-4">
+							<p class="h5-font">Hiếu đạo</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-3 col-xl-2 px-xl-4 mini-news-item ">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3 pt-sm-4">
+							<p class="h5-font">Hiếu đạo</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-3 col-xl-2 px-xl-4 mini-news-item ">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3 pt-sm-4">
+							<p class="h5-font">Hiếu đạo</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-3 col-xl-2 px-xl-4 mini-news-item ">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3 pt-sm-4">
+							<p class="h5-font">Hiếu đạo</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-3 col-xl-2 px-xl-4 mini-news-item ">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3 pt-sm-4">
+							<p class="h5-font">Hiếu đạo</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-3 col-xl-2 px-xl-4 mini-news-item ">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3 pt-sm-4">
+							<p class="h5-font">Hiếu đạo</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-3 col-xl-2 px-xl-4 mini-news-item ">
+					<div class="mx-xl-n1">
+						<div class="">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/news_16.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<div class="pt-3 pt-sm-4">
+							<p class="h5-font">Hiếu đạo</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid px-xl-0 bg-dark">
+		<div class="achievement d-flex flex-wrap">
+			<div class="achievement-img d-none d-xl-block">
+				<p class="thumb-img"> 
+                    <a href="" class="thumb-item thumb-5x3"> 
+                        <img src="images/Rectangle 179.png" class="" alt="..."> 
+                    </a> 
+                </p>
+			</div>
+			<div class="achievement-content ">
+				<div class="w-100 h-100 d-flex align-items-center justify-content-center">
+					<div class="col-sm-9 my-5 py-4">
+						<p class="title-48 text-white pb-4 text-center text-xl-left">Thành tựu</p>
+						<div class="d-block d-xl-none">
+							<p class="thumb-img"> 
+								<a href="" class="thumb-item thumb-5x3"> 
+									<img src="images/Rectangle 179.png" class="" alt="..."> 
+								</a> 
+							</p>
+						</div>
+						<p class="title-16 text-white">
+							<span>Đêm nhạc Ân khúc - Giao hòa được tổ chức tối 24/1 tại Nhà hát Lớn, Hà Nội nhằm vinh danh những ca khúc nổi tiếng được phổ từ thơ của giáo sư Ngô Xuân Bính. Chương trình bao gồm các sáng tác của 10 nhạc sĩ: Nguyễn Cường, Phú Quang, Huy Thông, Xuân Phương, Đức Trịnh, Phú Cử, Trọng Tuấn, Tuấn Phương, Kim Quang, Quang Vinh.</span><br>
+
+<span><br>
+
+Là nhà khoa học có nhiều công trình nghiên cứu đáng giá, đứng đầu môn phái võ thuật dân tộc mang tên Nhất Nam, giáo sư Ngô Xuân Bính còn có một niềm đam mê lớn với thi ca. Ông từng cho xuất bản 7 tập thơ với hàng nghìn tác phẩm. Trong đó, không ít bài thơ đã truyền cảm hứng cho các nhạc sĩ nổi tiếng phổ thành nhạc như Chợ quê, Hà Nội trong tôi, Thả thuyền bến Mơ, Huế một lần gặp, Tháp Chàm, Nếp nương hay Nỗi nhớ quê.</span><br>
+
+
+							<span><br>
+
+Nhạc sĩ Huy Thông tâm sự: "Thơ của Ngô Xuân Bính không dễ đọc và không phải ai cũng có thể cảm nhận được. Chúng có sẵn tính nhạc và đầy sự chiêm nghiệm. Đó là sự dồn nén của tình yêu dành cho đất nước, cho văn hóa truyền thống dân tộc. Các bài thơ của ông đầy ắp hơi thở cuộc sống, từ những thứ giản dị như con tôm, con còng đến các vấn đề lớn của thời cuộc".</span>
+						</p>
+						<button class="d-block sub-title-16 seemore-button position-relative mt-5 mx-auto mx-xl-0">
+						  <span class="position-relative">Xem thêm <img src="images/icon/next-brown.svg" class="move-right icon-right" alt=""></span>
+					  </button> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<footer>
+	<div class="w-1791 mx-auto d-flex justify-content-center align-items-center flex-wrap">
+		<span class="font-playfair font-weight-bolder fs-22 text-red pr-xl-5">NGÔ XUÂN BÍNH</span>
+		<span class="text-dark500 fs-16 text-dark333 font-arial text-center">© 1997-2021. Toàn bộ bản quyền thuộc BinhHeritage.vn</span>
+		
+	</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	
+<script src="js/header.js"></script> 
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	
+	<script>
+		$('.media-slide').slick({
+		  centerMode: true,
+		  centerPadding: '30px',
+		  slidesToShow: 1,
+			infinite:false,
+			arrows: true,
+			prevArrow:'<button type="button" class="slick-prev slick-prev-custom slick-arrow"></button>',
+		 	  nextArrow:'<button type="button" class="slick-next slick-next-custom slick-arrow"></button>',
+		  
+		});
+	</script>
+ 
+
+<script>
+	$(document).ready(function(){
+    //when dropdown is clicked add class "open" to open the dropdown menu
+    $(".dropdown-list").click(function(){
+        $(this).siblings().removeClass("open");
+        $(this).toggleClass("open");
+    });
+    $(".show-menu-btn").click(function(){
+        $('.menu-mobile').addClass('open_nav_mb');
+    });
+    $(".hide-menu-btn").click(function(){
+        $('.menu-mobile').removeClass('open_nav_mb');
+    });
+    //when document is clicked and it's not in the dropdown, close menu
+    $(document).click(function(e){
+        if(!$(e.target).parents(".navigation").length){
+            $(".dropdown-list").removeClass("open");
+        }
+    });
+    $('.dropdown-list').on('click',function(){
+        $('.dropdown-list').removeClass('active-mobile');
+        $(this).addClass('active-mobile');
+    });
+});
+</script>
+	<script>
+            function buttonUp(){
+         var valux = $('.sb-search-input').val(); 
+            valux = $.trim(valux).length;
+            if(valux !== 0){
+                $('.sb-search-submit').css('z-index','99');
+            } else{
+                $('.sb-search-input').val(''); 
+                $('.sb-search-submit').css('z-index','-999');
+            }
+    }
+    
+    $(document).ready(function(){
+        var submitIcon = $('.sb-icon-search');
+        var submitInput = $('.sb-search-input');
+        var searchBox = $('.sb-search');
+        var isOpen = false;
+        
+        $(document).mouseup(function(){
+            if(isOpen == true){
+            submitInput.val('');
+            $('.sb-search-submit').css('z-index','-999');
+            submitIcon.click();
+            }
+        });
+        
+        submitIcon.mouseup(function(){
+            return false;
+        });
+        
+        searchBox.mouseup(function(){
+            return false;
+        });
+                
+        submitIcon.click(function(){
+            if(isOpen == false){
+                searchBox.addClass('sb-search-open');
+                isOpen = true;
+            } else {
+                searchBox.removeClass('sb-search-open');
+                isOpen = false;
+            }
+    });
+
+});
+    </script> 
+	
+<!--
+	<script>
+		$(document).ready(function() {
+$(window).scroll(function() {
+if ($(this).scrollTop() > 200) {
+$('#toTopBtn').fadeIn();
+} else {
+$('#toTopBtn').fadeOut();
+}
+});
+
+$('#toTopBtn').click(function() {
+$("html, body").animate({
+scrollTop: 0
+}, 3000);
+return false;
+});
+});
+	</script>
+-->
+</body>
+</html>
