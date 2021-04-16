@@ -341,7 +341,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="top-sidebar">
+				<div class="top-sidebar d-xl-block d-none">
 					<button class="border-0 mb-3">
 						<img src="images/icon/button.svg" alt="">
 					</button>
@@ -352,18 +352,18 @@
 		</div>
 	</div>
 	<div class="w-100 position-relative media-section" style="background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */">
-			<img src="images/icon/media-icon-1.svg" class="icon icon-1" alt="">
+			<img src="images/icon/media-icon-1.svg" class="icon icon-1" style="z-index: 1" alt="">
 			<img src="images/icon/media-left.svg" class="icon icon-2" alt="">
 			<img src="images/icon/media-right.svg" class="icon icon-3" alt="">
-		<div class="media d-flex flex-wrap ">
+		<div class="media d-flex flex-wrap position-relative" style="z-index: 2">
 			<div class="cate-list w-100 pb-4">
 				<a href="" class="fs-22 font-roboto font-weight-bold cate-list-item">MEDIA</a>
-				<a href="" class="h-18 mx-4 cate-list-item">Video</a>
-				<a href="" class="h-18 mx-4 cate-list-item">Ảnh</a>
-				<a href="" class="h-18 mx-4 cate-list-item">infographic</a>
+				<a href="" class="h-18 cate-list-item">Video</a>
+				<a href="" class="h-18  cate-list-item">Ảnh</a>
+				<a href="" class="h-18 cate-list-item">infographic</a>
 			</div>
-			<div class="d-flex w-100 justify-content-between">
-				<div class="media-main">
+			<div class="d-flex w-100 justify-content-between flex-wrap">
+				<div class="media-main d-xl-block d-none">
 					<p class="thumb-img rounded"> 
 						<a href="" class="thumb-item thumb-5x3"> 
 							<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
@@ -381,8 +381,9 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="media-sidebar-item-content ">
-                            <a href="" class="h-16">Đoạn tweet của Elon Musk khiến Bitcoin tăng giá</a>
+                        <div class="media-sidebar-item-content">
+                            <a href="" class="h-16 ">Đoạn tweet của Elon Musk khiến Bitcoin tăng giá</a>
+							<p class="d-block d-xl-none font-arial fs-16 pt-2 mt-1 text-white">Khoản đầu tư 1,5 tỷ USD vào Bitcoin của Tesla sẽ gián tiếp tạo ra thêm 8,1 triệu tấn khí thải carbon. Điều đó đi ngược với sứ mệnh xanh của hãng xe điện của Elon Musk.</p>
                         </div>
                     </div>
 					<div class="media-sidebar-item d-flex justify-content-between">
@@ -436,19 +437,19 @@
   
   <!--		<a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>-->
 
-  <div class="bg-base">
-    <div class="w-1080 mx-auto ">
+  <div class="bg-white">
+    <div class="w-1080 mx-auto mb-xl-4 pb-xl-1">
 		<p class="section-title">Nổi bật</p>
 		<div class="grid5">
 			<div class="grid-item">
-				<div class="">
+				<div class="grid-item-img">
                     <p class="thumb-img rounded"> 
                         <a href="" class="thumb-item thumb-5x3 "> 
                             <img src="images/Ngo Xuan Binh (29).png" class="" alt="...">
                         </a> 
                     </p>
                 </div>
-				<div class="pt-12">
+				<div class="pt-12 grid-item-content">
 					<a href="" class="h-16">Đằng sau đà tăng phi mã của cổ phiếu FLC</a>
 					<a href="" class="writer-name d-block py-12">Nguyễn Tấn Tài</a>
 				</div>
@@ -506,89 +507,49 @@
 				</div>
 			</div>
 		</div>
+		<div class="w-100" style="background-color: #F0EFF4; height: 5px"></div>
     </div>
   </div>
-	<div class="bg-base container-fluid">
-		<p class="section-title">Media</p>
-		<div class="w-1791 mx-auto d-xl-block d-none">
-			<div class="media">
-				<div class="media-article">
-					<div class="">
-                      <img src="images/Rectangle 158.png" alt="">
-                    </div>
-				</div>
-				<div class="media-sidebar d-flex flex-column justify-content-between">
-					<div class="media-sidebar-content">
-                        <a class="title-16 text-orange pb-3" href="">Video</a>
-                        <p class="title-40">Ngô Xuân Bính: “Kỳ nhân” xứ Nghệ ở nước Nga</p>
-                        <div class="d-flex py-3 mb-3">
-                            <span class="play-button d-flex"><span class="play-icon">&#9655;</span><span class="play-time">2:30</span> </span>
-                        </div>
-                        <p class="title-16">Ngô Xuân Bính được biết đến với những công trình đồ sộ về y học và võ thuật. Nhiều người gọi ông là “kỳ nhân" bởi tinh thông hội họa, thơ ca, y học, võ thuật và âm nhạc. Thế nhưng, gặp ông chỉ thấy một người xứ Nghệ giản dị và khiêm nhường.</p>
-                    </div>
-					<div class="media-sidebar-video align-items-end w-100">
-						<div class="sidebar-video-item">
-							<div class="">
-								<p class="thumb-img rounded"> 
-									<a href="" class="thumb-item thumb-5x3"> 
-										<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
-										<span class="play-button d-flex align-items-center"><span class="play-icon">&#9655;</span><span class="play-time">2:30</span> </span>
-									</a> 
-								</p>
-							</div>
-							<div class="">
-								<p class="title-16 pt-3">Ngô Xuân Bính: “Kỳ nhân” xứ Nghệ ở nước Nga</p>
-							</div>
+	<div class="bg-white">
+		<div class="w-1080 mx-auto main d-flex justify-content-xl-between">
+			<div class="article">
+				<div class="news-list">
+					<div class="news-list-item">
+						<div class="news-item-img">
+							<p class="thumb-img rounded"> 
+								<a href="" class="thumb-item thumb-5x3 "> 
+									<img src="images/Ngo Xuan Binh (29).png" class="" alt="...">
+								</a> 
+							</p>
 						</div>
-						<div class="sidebar-video-item">
-							<div class="">
-								<p class="thumb-img rounded"> 
-									<a href="" class="thumb-item thumb-5x3"> 
-										<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
-									</a> 
-								</p>
-							</div>
-							<div class="">
-								<p class="title-16 pt-3">Ngô Xuân Bính: “Kỳ nhân” xứ Nghệ ở nước Nga</p>
-							</div>
+						<div class="news-item-content">
+							<a href="" class="d-block title">Nhà phân phối Mercedes đầu tư vào phim H’Hen Niê đóng chính</a>
+							<a href="" class="writer-name d-block py-12">Nguyễn Tấn Tài</a>
+							<p class="d-xl-block d-none desc">Lãnh đạo Haxaco cho rằng việc quảng bá qua điện ảnh, tặng gói nghỉ dưỡng giúp công ty có lợi thế khác biệt thay vì cạnh tranh bằng giá bán với các đại lý xe Mercedes.</p>
+						</div>
+					</div>
+					<div class="news-list-item">
+						<div class="news-item-img">
+							<p class="thumb-img rounded"> 
+								<a href="" class="thumb-item thumb-5x3 "> 
+									<img src="images/Ngo Xuan Binh (29).png" class="" alt="...">
+								</a> 
+							</p>
+						</div>
+						<div class="news-item-content">
+							<a href="" class="d-block title">Nhà phân phối Mercedes đầu tư vào phim H’Hen Niê đóng chính</a>
+							<a href="" class="writer-name d-block py-12">Nguyễn Tấn Tài</a>
+							<p class="d-xl-block d-none desc">Lãnh đạo Haxaco cho rằng việc quảng bá qua điện ảnh, tặng gói nghỉ dưỡng giúp công ty có lợi thế khác biệt thay vì cạnh tranh bằng giá bán với các đại lý xe Mercedes.</p>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="w-1791 mx-n3 d-block d-xl-none">
-			<div class="media-slide py-3 ml-n3">
-			  	<div class="media-slide-item m-2">
-					<div class="">
-						<p class="thumb-img rounded"> 
-							<a href="" class="thumb-item thumb-5x3"> 
-								<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
-							</a> 
-						</p>
-					</div>
-                    <div class="p-3 media-slide-item-content">
-						<a href="" class="title-18 text-white">Ngô Xuân Bính: “Kỳ nhân” xứ Nghệ ở nước Nga</a>
-						<p class="py-3 fs-14"> Ngô Xuân Bính được biết đến với những công trình đồ sộ về y học và võ thuật. Nhiều người gọi ông là “kỳ nhân" bởi tinh thông hội họa, thơ ca.</p>
-						<a href="" class="text-orange">Video</a>
-					</div>
-				</div>
-			  	<div class="media-slide-item m-2">
-					<div class="">
-						<p class="thumb-img rounded"> 
-							<a href="" class="thumb-item thumb-5x3"> 
-								<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
-							</a> 
-						</p>
-					</div>
-                    <div class="p-3 media-slide-item-content">
-						<a href="" class="title-18 text-white">Ngô Xuân Bính: “Kỳ nhân” xứ Nghệ ở nước Nga</a>
-						<p class="py-3 fs-14"> Ngô Xuân Bính được biết đến với những công trình đồ sộ về y học và võ thuật. Nhiều người gọi ông là “kỳ nhân" bởi tinh thông hội họa, thơ ca.</p>
-						<a href="" class="text-orange">Video</a>
-					</div>
-				</div>
+			<div class="sidebar">
+				<img src="../ba_vang/images/adv_01.png" alt="">
 			</div>
 		</div>
 	</div>
+	
 	<div class="bg-base container-fluid">
 		<p class="section-title">Người & Nghiệp</p>
 		<div class="w-1791 mx-auto p-xl-5 custom-carousel ">
