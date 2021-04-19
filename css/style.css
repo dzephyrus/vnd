@@ -651,35 +651,36 @@ input[type="search"].sb-search-input {
 .article {
   max-width: 740px;
   width: 100%; }
-  .article .news-list .news-list-item {
-    display: flex;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #E0E0E0; }
-    .article .news-list .news-list-item .news-item-img {
-      width: 260px; }
-    .article .news-list .news-list-item .news-item-content {
-      padding-left: 15px;
-      width: calc(100% - 260px); }
-      .article .news-list .news-list-item .news-item-content .title {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 130%;
-        color: #333333; }
-      .article .news-list .news-list-item .news-item-content .desc {
-        font-family: Arial;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 140%;
-        color: #444444; }
-    .article .news-list .news-list-item:last-child {
-      margin-bottom: 0; }
 
 .sidebar {
   width: 300px; }
+
+.news-list .news-list-item {
+  display: flex;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E0E0E0; }
+  .news-list .news-list-item .news-item-img {
+    width: 260px; }
+  .news-list .news-list-item .news-item-content {
+    padding-left: 15px;
+    width: calc(100% - 260px); }
+    .news-list .news-list-item .news-item-content .title {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 130%;
+      color: #333333; }
+    .news-list .news-list-item .news-item-content .desc {
+      font-family: Arial;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 140%;
+      color: #444444; }
+  .news-list .news-list-item:last-child {
+    margin-bottom: 0; }
 
 .cate-news .cate-main .cate-main-content .title {
   font-family: Roboto-500;
@@ -698,11 +699,81 @@ input[type="search"].sb-search-input {
 .cate-news .cate-mini-news .cate-mini-item {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; }
+  align-items: flex-start;
+  padding-top: 12px;
+  margin-top: 12px;
+  border-top: 1px solid #E0E0E0; }
   .cate-news .cate-mini-news .cate-mini-item .cate-mini-item-img {
     width: 120px; }
   .cate-news .cate-mini-news .cate-mini-item .cate-mini-item-content {
+    padding-left: 10px;
+    width: calc(100% - 120px); }
+    .cate-news .cate-mini-news .cate-mini-item .cate-mini-item-content .cate-content-detail {
+      font-family: Roboto-500;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 150%;
+      color: #333333; }
+
+.ads-section {
+  padding: 20px 3px;
+  margin: 30px 0;
+  border-bottom: 5px solid #F0EFF4;
+  border-top: 5px solid #F0EFF4; }
+
+.member .member-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #D6D6D6; }
+  .member .member-item .member-img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    overflow: hidden; }
+    .member .member-item .member-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .member .member-item .member-info {
     padding-left: 10px; }
+    .member .member-item .member-info .member-info-name {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 130%;
+      color: #333333; }
+    .member .member-item .member-info .follower-count p {
+      font-family: Arial;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      font-feature-settings: 'pnum' on, 'lnum' on;
+      color: #666666;
+      padding-top: 12px; }
+
+.comment-section .comment-section-item {
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #D6D6D6; }
+  .comment-section .comment-section-item:last-child {
+    border-bottom: none; }
+  .comment-section .comment-section-item .comment-section-img {
+    width: 18px; }
+  .comment-section .comment-section-item .comment-section-content {
+    width: calc(100% - 18px);
+    padding-left: 10px; }
+    .comment-section .comment-section-item .comment-section-content a {
+      font-family: Roboto-500;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 140%;
+      color: #333333; }
 
 footer {
   padding: 38px 0;
