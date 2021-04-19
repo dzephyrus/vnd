@@ -778,27 +778,23 @@ input[type="search"].sb-search-input {
 footer {
   padding: 38px 0;
   position: relative;
-  overflow: hidden; }
-  footer::before {
-    content: "";
-    height: 100%;
-    width: 50%;
-    position: absolute;
-    left: -25%;
-    top: 0;
-    background-repeat: no-repeat;
-    background-image: url(../images/icon/XMLID2.svg);
-    background-size: 100% 124%; }
-  footer::after {
-    content: "";
-    height: 100%;
-    width: 50%;
-    position: absolute;
-    right: -25%;
-    top: 0;
-    background-repeat: no-repeat;
-    background-image: url(../images/icon/XMLID2.svg);
-    background-size: 100% 124%; }
+  overflow: hidden;
+  background-color: #EFEFEF; }
+  footer .footer-cate {
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid #00000038;
+    border-top: 1px solid #00000038; }
+    footer .footer-cate .footer-cate-item {
+      font-family: Roboto-500;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 118.01%;
+      text-transform: uppercase;
+      color: #333333;
+      display: block;
+      padding: 11px 40px; }
 
 .cd-auto-hide-header {
   position: sticky;
