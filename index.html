@@ -79,20 +79,36 @@
     </nav>
     <!-- end menu-mobile -->
 </div>
-<!-- menu-mobile -->
-  <div class="w-100 d-none d-lg-block position-relative bg-base" >
-    <div class="w-1791 mx-auto row py-4 align-items-center position-relative header-pc">
-      <div class="d-flex align-items-center px-0 position-absolute">
-        <div class="d-flex align-items-center pl-sm-3 pr-0 col-5 "><a href=""><img src="images/icon/prev-black.svg" alt=""></a></div>
-		  <div class="d-flex flex-wrap ml-sm-n1"><a href="" class="fs-16 text-nowrap font-playfair text-dark333">BinhHeritage.vn</a>
-		  </div>
-      </div>
-        <div class="mx-auto ">
-			<ul class="d-flex nav_desktop bg-transparent justify-content-between w-100">
-				<li class="nav_item ">
+<!-- menu-pc -->
+  <div class="w-100 d-none d-lg-block position-relative header-pc" >
+    <div class="w-100 header-noti" >
+		<div class="w-1080 mx-auto row align-items-center position-relative justify-content-between">
+			<div class="">
+				<p class="fs-12 text-dark444 font-roboto">Thứ Sáu, 15/11/2019  <span class="pl-3">10:25 (GTM +7)</span></p>
+			</div> 
+			<div class="">
+				<div class="">
+					<a href="" class="px-2 text-dark666"><i class="fab fa-facebook-f"></i></a>
+					<a href="" class="px-2 text-dark666"><i class="fab fa-twitter"></i></a>
+					<a href="" class="px-2 text-dark666"><i class="fab fa-youtube"></i></a>
+					<span>|</span>
+					<span class="fs-14 text-dark444 px-2">Hà Nội</span><span class="font-weight-bold fs-14">25*C / 61%</span><span><i class="fas fa-cloud-sun text-dark666 pl-3"></i></span>
+				</div>
+			</div>
+		</div>
+    </div>
+    <div class="w-1080 mx-auto row align-items-center position-relative">
+		<div class="">
+			<a href="">
+				<img src="images/icon/logo.svg" alt="">
+			</a>
+		</div>
+        <div class="">
+			<ul class="d-flex nav_desktop justify-content-between w-100">
+				<li class="nav_item active">
 					<a href=""><img src="images/icon/Home.svg" alt=""></a>
 				</li>
-			  <li class="nav_item active"> <a href="" class="">Medi</a>
+			  <li class="nav_item"> <a href="" class="">Medi</a>
 				<ul class="dropdown-menu fade-up">
 				  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
 				  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
@@ -101,12 +117,22 @@
 			  </li>
 			  <li class="nav_item "><a href="" class="">Võ thuật</a></li>
 			  <li class="nav_item "><a href="" class="">Y học</a></li>
-			  <li class="author-name px-4"><a href="" class="">NGÔ XUÂN BÍNH</a></li>
 			  <li class="nav_item "><a href="" class="">Điêu khắc</a></li>
 			  <li class="nav_item "><a href="" class="">Hội họa</a></li>
 			  <li class="nav_item "><a href="" class="">Thơ ca</a></li>
 			</ul>
 		</div>
+		<div class="position-absolute" style="right:0">
+                    <div id="sb-search" class="sb-search ">
+                        <form action="/" method="get">
+                            <input type="hidden" name="mod" value="news" />
+                            <input type="hidden" name="act" value="search" />
+                            <input class="sb-search-input " onkeyup="buttonUp();" placeholder="Tìm kiếm..." onblur="monkey();" type="search" value="" name="search" id="search">
+                            <input class="sb-search-submit" type="submit" value="">
+                            <span class="sb-icon-search"><i class="fa fa-search"></i></span>
+                        </form>
+                    </div>
+                </div>
       </div>
 	  <div class="position-absolute w-100 bg-base accordion" id="accordionExample">
 	  	<div class="collapse" id="collapseExample" data-parent="#accordionExample">
