@@ -956,7 +956,8 @@ footer{
 	position: relative;
 	overflow: hidden;
 	background-color: #EFEFEF;
-	.footer-cate{
+}
+.footer-cate{
 		justify-content: center;
 		display: flex;
 		border-bottom: 1px solid #00000038;
@@ -973,7 +974,6 @@ footer{
 			padding: 11px 40px;
 		}
 	}
-}
 
 .cd-auto-hide-header {
   position: sticky;

@@ -85,8 +85,12 @@
 }
 @media (max-width: 1199px) {
 	
-	.top-news {
-		height: 266px;
+	.top-news{
+		width: 100%;
+		padding: 0 15px;
+	}
+	.article{
+		max-width: 100%;
 	}
 	
 	// ngo van tien //
@@ -172,6 +176,81 @@
 	.active-mobile {
 		color: black;
 	}
+	footer{
+		    padding: 30px 0 40px;
+	}
+	.footer-cate{
+		justify-content: center;
+		display: flex;
+		padding: 20px 0 9px;
+		flex-wrap: wrap;
+		border-bottom: 1px solid #00000038;
+		border-top: 1px solid #00000038;
+		.footer-cate-item{
+			font-family: Roboto-500;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 118.01%;
+			text-transform: uppercase;
+			color: #333333;
+			display: block;
+			padding: 0px 10px 10px;
+			white-space: nowrap;
+		}
+	}
+	.media{
+		width: 100%;
+		margin: auto;
+		padding: 28px 0 14px;
+		.media-main{
+			max-width: 100%;
+			width: 100%;
+			max-height: auto;
+		}
+		.media-sidebar{
+			width: 100%;
+			width: 100%;
+			display: grid;
+			grid-template-columns: 4 1fr;
+			grid-gap: 15px;
+			padding: 0 15px;
+			grid-template-columns: repeat(4, 1fr);
+			.media-sidebar-item{
+				margin-bottom: 0px;
+				padding: 0;
+				display: flex;
+                flex-wrap: wrap;
+                .media-sidebar-item-img{
+                width: 100%;
+                }
+                .media-sidebar-item-content{
+                    width: 100%;
+                    padding: 15px 0 0;
+                    a{
+                        color: white;
+                        font-family: Roboto;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 18px;
+						line-height: 130%;
+                    }
+                }
+			}
+		}
+	}
+	.cate-list{
+		.cate-list-item{
+			padding-right: 30px;
+			color: white;
+			&:last-child{
+				padding-right: 0;
+			}
+			&:first-child{
+				padding-left: 15px;
+			}
+		}
+	}
 }
 @media (max-width: 991px) {
 
@@ -199,7 +278,7 @@
     margin: 0 auto;
     display: block;
     height: 100%;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 .mainInner{
     display: table;
@@ -350,7 +429,7 @@ body {
     margin: 0 auto;
     display: block;
     height: 100%;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 .mainInner{
     display: table;
@@ -677,8 +756,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 		}
 		.media-sidebar{
 			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			padding: 0;
 			.media-sidebar-item{
-				margin-bottom: 11px;
+				margin-bottom: 1px;
 				padding: 0 15px;
 				&:last-child{
 					margin-bottom: 0;
@@ -709,7 +791,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 				}
 				.media-sidebar-item-content{
 					width: calc(100% - 160px);
-					padding-left: 16px;
+					padding: 0 0 0 15px;
 					a{
 						color: white;
 					}
@@ -717,18 +799,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 			}
 		}
 	}
-	.cate-list{
-		.cate-list-item{
-			padding-right: 30px;
-			color: white;
-			&:last-child{
-				padding-right: 0;
-			}
-			&:first-child{
-				padding-left: 15px;
-			}
-		}
-	}
+	
 	.grid5{
 		display: grid;
 	    width: 100%;
@@ -844,6 +915,28 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 					font-size: 16px;
 					line-height: 130%;
 					color: #333333;
+				}
+			}
+		}
+	}
+	.top-index{
+		.top-news{
+			.top-1{
+				background: #FFFFFF;
+				border: 1px solid #EEEEEE;
+				box-sizing: border-box;
+				box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+				border-radius: 7px;
+				margin-bottom: 20px;
+				.content-section{
+					.content-section-desc, .content-section-title{
+						padding: 0 15px 10px;
+						display: block;
+					}
+					.writer-name{
+						background: #EEEEEE;
+						padding: 14px;
+					}
 				}
 			}
 		}
