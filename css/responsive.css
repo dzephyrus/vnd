@@ -201,7 +201,6 @@
       max-height: auto; }
     .media .media-sidebar {
       width: 100%;
-      width: 100%;
       display: grid;
       grid-template-columns: 4 1fr;
       grid-gap: 15px;
