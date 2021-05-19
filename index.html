@@ -22,6 +22,33 @@
 <body>
 <header class="cd-auto-hide-header">
 		<div class="d-block d-lg-none">
+			<div class="d-flex py-2" style="background: #127EC2">
+				<div class="col-6 justify-content-start align-items-center d-flex">
+					<span class="text-white">Thứ Sáu, 15/11/2019</span>
+				</div>
+				<div class="col-6 pl-0">
+					<div class="d-flex align-items-center justify-content-end">
+						<a href="" class="px-2 text-white fs-14"><i class="fab fa-facebook-f"></i></a>
+						<a href="" class="px-2 text-white"><i class="fas fa-user"></i></a>
+						<a href="" class="px-2 text-white fs-14"><i class="fab fa-youtube"></i></a>
+						<a href="" class="text-uppercase bg-transparent btn text-white border-white fs-16 py-1 px-2">viết bài</a>
+					</div>
+				</div>
+			</div>
+			<form class="" style="z-index: 15" action="" method="GET">
+				<div class="position-absolute bg-white w-100" style="top:100%; left: 0; z-index:3">
+					<div class="collapse " id="collapseExample" style="">
+						<div class="input-group dropdown-item bg-white pb-3 px-3">
+							<input type="hidden" name="mod" value="archive">
+							<input type="hidden" name="act" value="search">
+							<input type="text" name="search" class="form-control shadow-none" placeholder="Tìm kiếm..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+							<div class="input-group-append">
+								<button class="btn btn-outline-secondary" type="submit"><i class="fas fa-search"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
 			<div class="d-flex position-relative align-items-center py-xl-2 px-3 bg-base">
                 <div class="show-menu-btn px-0 position-absolute">
                     <img src="images/icon/menu.svg" alt="">
@@ -30,11 +57,19 @@
                     <a href="" class="text-red font-weight-bolder font-playfair fs-32 text-nowrap">NGÔ XUÂN BÍNH
                     </a>
                 </div>
+				<div class="d-flex justify-content-end position-fixed " style="z-index: 2; right: 0">
+					<form class="btn-group mt-1" style="z-index: 15" action="/?mod=archive&amp;act=search" method="GET">
+						<button class="btn shadow-none text-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+                          <i class="fas fa-search fs-20"></i>
+                        </button>
+					</form>
+				</div>
 			</div>
 		</div>
 		
 <!-- menu-mobile -->
 <div class="menu-mobile d-block d-lg-none">
+	
 	<div class="d-flex align-items-center justify-content-between pt-2 bg-base">
 		<div class="position-absolute">
 			<label for="chk" class="hide-menu-btn fs-24 mb-0 pl-3">
@@ -389,7 +424,7 @@
 				<a href="" class="h-18 cate-list-item">infographic</a>
 			</div>
 			<div class="d-flex w-100 justify-content-between flex-wrap">
-				<div class="media-main d-xl-block d-none">
+				<div class="media-main">
 					<p class="thumb-img rounded"> 
 						<a href="" class="thumb-item thumb-5x3"> 
 							<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
@@ -397,45 +432,93 @@
 					</p>
 				</div>
 				<div class="media-sidebar">
-                    <div class="media-sidebar-item d-flex justify-content-between">
-                        <div class="media-sidebar-item-img">
-                                <p class="thumb-img rounded">
-                                    <a href="" class="thumb-item thumb-5x3"> 
-                                        <img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
-                                    </a>
-                                </p>
-                        </div>
-                        <div class="media-sidebar-item-content">
-                            <a href="" class="h-16 ">Đoạn tweet của Elon Musk khiến</a>
-							<p class="d-block d-sm-none font-arial fs-16 pt-2 mt-1 text-white">Khoản đầu tư 1,5 tỷ USD vào Bitcoin của Tesla sẽ gián tiếp tạo ra thêm 8,1 triệu tấn khí thải carbon. Điều đó đi ngược với sứ mệnh xanh của hãng xe điện của Elon Musk.</p>
-                        </div>
-                    </div>
-					<div class="media-sidebar-item d-flex justify-content-between">
-                        <div class="media-sidebar-item-img">
-                                <p class="thumb-img rounded">
-                                    <a href="" class="thumb-item thumb-5x3"> 
-                                        <img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
-                                    </a>
-                                </p>
-                        </div>
-                        <div class="media-sidebar-item-content ">
-                            <a href="" class="h-16">Đoạn tweet của Elon Musk khiến Bitcoin tăng giá</a>
-                        </div>
-                    </div>
-					<div class="media-sidebar-item">
-						<div class="d-flex justify-content-between flex-wrap">
-							<div class="media-sidebar-item-img">
-									<p class="thumb-img rounded">
-										<a href="" class="thumb-item thumb-5x3"> 
-											<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
-										</a>
-									</p>
+					<div class="media-sidebar-main" >
+						<div class="position-absolute media-sidebar-grid">
+<!--
+							<div class="media-sidebar-item d-flex justify-content-between">
+								<div class="media-sidebar-item-img">
+                                    <p class="thumb-img rounded">
+                                        <a href="" class="thumb-item thumb-5x3"> 
+                                            <img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+                                        </a>
+                                    </p>
+								</div>
+								<div class="media-sidebar-item-content">
+									<a href="" class="h-16 ">Đoạn tweet của Elon Musk khiến</a>
+									<p class="d-block d-sm-none font-arial fs-16 pt-2 mt-1 text-white">Khoản đầu tư 1,5 tỷ USD vào Bitcoin của Tesla sẽ gián tiếp tạo ra thêm 8,1 triệu tấn khí thải carbon. Điều đó đi ngược với sứ mệnh xanh của hãng xe điện của Elon Musk.</p>
+								</div>
 							</div>
-							<div class="media-sidebar-item-content ">
-								<a href="" class="h-16">Đoạn tweet của Elon n tăng giá</a>
+-->
+							<div class="media-sidebar-item d-flex justify-content-between">
+								<div class="media-sidebar-item-img">
+										<p class="thumb-img rounded">
+											<a href="" class="thumb-item thumb-5x3"> 
+												<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+											</a>
+										</p>
+								</div>
+								<div class="media-sidebar-item-content ">
+									<a href="" class="h-16">Đoạn tweet của Elon Musk khiến Bitcoin tăng giá</a>
+								</div>
+							</div>
+							<div class="media-sidebar-item d-flex justify-content-between">
+								<div class="media-sidebar-item-img">
+										<p class="thumb-img rounded">
+											<a href="" class="thumb-item thumb-5x3"> 
+												<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+											</a>
+										</p>
+								</div>
+								<div class="media-sidebar-item-content ">
+									<a href="" class="h-16">Đoạn tweet của Elon Musk khiến Bitcoin tăng giá</a>
+								</div>
+							</div>
+							<div class="media-sidebar-item">
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="media-sidebar-item-img">
+											<p class="thumb-img rounded">
+												<a href="" class="thumb-item thumb-5x3"> 
+													<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+												</a>
+											</p>
+									</div>
+									<div class="media-sidebar-item-content ">
+										<a href="" class="h-16">Đoạn tweet của Elon n tăng giá</a>
+									</div>
+								</div>
+							</div>
+							<div class="media-sidebar-item">
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="media-sidebar-item-img">
+											<p class="thumb-img rounded">
+												<a href="" class="thumb-item thumb-5x3"> 
+													<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+												</a>
+											</p>
+									</div>
+									<div class="media-sidebar-item-content ">
+										<a href="" class="h-16">Đoạn tweet của Elon n tăng giá</a>
+									</div>
+								</div>
+							</div>
+							<div class="media-sidebar-item">
+								<div class="d-flex justify-content-between flex-wrap">
+									<div class="media-sidebar-item-img">
+											<p class="thumb-img rounded">
+												<a href="" class="thumb-item thumb-5x3"> 
+													<img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
+												</a>
+											</p>
+									</div>
+									<div class="media-sidebar-item-content ">
+										<a href="" class="h-16">Đoạn tweet của Elon n tăng giá</a>
+									</div>
+								</div>
 							</div>
 						</div>
-                    </div>
+					</div>
+                    
+<!--
 					<div class="grid-item d-xl-none d-block">
 						<div class="grid-item-img">
 							<p class="thumb-img rounded"> 
@@ -449,18 +532,8 @@
 							<a href="" class="writer-name d-block py-12">Nguyễn Tấn Tài</a>
 						</div>
 					</div>
-					<div class="media-sidebar-item d-none d-xl-flex justify-content-between">
-                        <div class="media-sidebar-item-img">
-                                <p class="thumb-img rounded">
-                                    <a href="" class="thumb-item thumb-5x3"> 
-                                        <img src="images/Ngo Xuan Binh (29).png" class="" alt="..."> 
-                                    </a>
-                                </p>
-                        </div>
-                        <div class="media-sidebar-item-content ">
-                            <a href="" class="h-16">Đoạn tweet của Elon Musk khiến Bitcoin tăng giá</a>
-                        </div>
-                    </div>
+-->
+
 				</div>
 			</div>
 		</div>
